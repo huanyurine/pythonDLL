@@ -2,4 +2,4 @@
 
 python ctypes C++ dll
 
-"DLLExample.dll" is compiled from "DLLExample.h" and "DLLExample.cpp"
+"pyDLL.h" and "pyDLL.cpp" to create a "pyDLL.dll"
