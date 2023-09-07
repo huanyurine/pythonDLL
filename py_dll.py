@@ -5,7 +5,7 @@ class Pos(Structure):
     _fields_ = [("x", c_int), ("y", c_int)]
 
 
-lib = cdll.LoadLibrary("x64/Release/pyDLL")
+lib = cdll.LoadLibrary("x64/Release/pyDLL.dll")
 
 lib.minus.restype = c_float
 lib.minus.argtypes = [c_float, c_float]
